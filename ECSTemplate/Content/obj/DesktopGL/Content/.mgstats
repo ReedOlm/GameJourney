@@ -1,0 +1,5 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"E:/Desktop/Game/Github/GameJourney/ECSTemplate/Content/back.png","E:/Desktop/Game/Github/GameJourney/ECSTemplate/Content/bin/DesktopGL/Content/back.xnb","TextureProcessor","Texture2DContent",3150,396885,0.1132553
+"E:/Desktop/Game/Github/GameJourney/ECSTemplate/Content/menuBtn0.png","E:/Desktop/Game/Github/GameJourney/ECSTemplate/Content/bin/DesktopGL/Content/menuBtn0.xnb","TextureProcessor","Texture2DContent",2587,396885,0.0078932
+"E:/Desktop/Game/Github/GameJourney/ECSTemplate/Content/menuBtn1.png","E:/Desktop/Game/Github/GameJourney/ECSTemplate/Content/bin/DesktopGL/Content/menuBtn1.xnb","TextureProcessor","Texture2DContent",3414,396885,0.0083819
+"E:/Desktop/Game/Github/GameJourney/ECSTemplate/Content/menuBtn2.png","E:/Desktop/Game/Github/GameJourney/ECSTemplate/Content/bin/DesktopGL/Content/menuBtn2.xnb","TextureProcessor","Texture2DContent",2064,396885,0.0076182

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Profile>Reach</Profile>
+  <Platform>DesktopGL</Platform>
+  <Config />
+  <SourceFiles>
+    <File>E:/Desktop/Game/Learning/Pong/Content/back.png</File>
+    <File>E:/Desktop/Game/Learning/Pong/Content/Background.png</File>
+    <File>E:/Desktop/Game/Learning/Pong/Content/Ball.png</File>
+    <File>E:/Desktop/Game/Learning/Pong/Content/HorizontalLine.png</File>
+    <File>E:/Desktop/Game/Learning/Pong/Content/menuBtn0.png</File>
+    <File>E:/Desktop/Game/Learning/Pong/Content/menuBtn1.png</File>
+    <File>E:/Desktop/Game/Learning/Pong/Content/menuBtn2.png</File>
+    <File>E:/Desktop/Game/Learning/Pong/Content/Paddle.png</File>
+    <File>E:/Desktop/Game/Learning/Pong/Content/Score.png</File>
+    <File>E:/Desktop/Game/Learning/Pong/Content/Title.png</File>
+    <File>E:/Desktop/Game/Learning/Pong/Content/VerticalLine.png</File>
+  </SourceFiles>
+  <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+  </DestFiles>
+</SourceFileCollection>

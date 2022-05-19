@@ -1,0 +1,12 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"E:/Desktop/Game/Pong/Content/back.png","E:/Desktop/Game/Pong/Content/bin/DesktopGL/back.xnb","TextureProcessor","Texture2DContent",3150,396885,0.1090084
+"E:/Desktop/Game/Pong/Content/Background.png","E:/Desktop/Game/Pong/Content/bin/DesktopGL/Background.xnb","TextureProcessor","Texture2DContent",10592,8294485,0.1740571
+"E:/Desktop/Game/Pong/Content/Ball.png","E:/Desktop/Game/Pong/Content/bin/DesktopGL/Ball.xnb","TextureProcessor","Texture2DContent",119,341,0.0007854
+"E:/Desktop/Game/Pong/Content/HorizontalLine.png","E:/Desktop/Game/Pong/Content/bin/DesktopGL/HorizontalLine.xnb","TextureProcessor","Texture2DContent",159,25685,0.0012184
+"E:/Desktop/Game/Pong/Content/menuBtn0.png","E:/Desktop/Game/Pong/Content/bin/DesktopGL/menuBtn0.xnb","TextureProcessor","Texture2DContent",2587,396885,0.0068742
+"E:/Desktop/Game/Pong/Content/menuBtn1.png","E:/Desktop/Game/Pong/Content/bin/DesktopGL/menuBtn1.xnb","TextureProcessor","Texture2DContent",3414,396885,0.0072838
+"E:/Desktop/Game/Pong/Content/menuBtn2.png","E:/Desktop/Game/Pong/Content/bin/DesktopGL/menuBtn2.xnb","TextureProcessor","Texture2DContent",2064,396885,0.0076323
+"E:/Desktop/Game/Pong/Content/Paddle.png","E:/Desktop/Game/Pong/Content/bin/DesktopGL/Paddle.xnb","TextureProcessor","Texture2DContent",116,4181,0.0008884
+"E:/Desktop/Game/Pong/Content/Score.png","E:/Desktop/Game/Pong/Content/bin/DesktopGL/Score.xnb","TextureProcessor","Texture2DContent",1303,73813,0.0019988
+"E:/Desktop/Game/Pong/Content/Title.png","E:/Desktop/Game/Pong/Content/bin/DesktopGL/Title.xnb","TextureProcessor","Texture2DContent",3419,396885,0.0109224
+"E:/Desktop/Game/Pong/Content/VerticalLine.png","E:/Desktop/Game/Pong/Content/bin/DesktopGL/VerticalLine.xnb","TextureProcessor","Texture2DContent",192,25685,0.0016329

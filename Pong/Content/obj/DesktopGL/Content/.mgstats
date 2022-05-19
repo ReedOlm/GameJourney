@@ -1,0 +1,12 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"E:/Desktop/Game/Learning/Pong/Content/back.png","E:/Desktop/Game/Learning/Pong/Content/bin/DesktopGL/Content/back.xnb","TextureProcessor","Texture2DContent",3150,396885,0.1124674
+"E:/Desktop/Game/Learning/Pong/Content/Background.png","E:/Desktop/Game/Learning/Pong/Content/bin/DesktopGL/Content/Background.xnb","TextureProcessor","Texture2DContent",10592,8294485,0.1871903
+"E:/Desktop/Game/Learning/Pong/Content/Ball.png","E:/Desktop/Game/Learning/Pong/Content/bin/DesktopGL/Content/Ball.xnb","TextureProcessor","Texture2DContent",119,341,0.0007683
+"E:/Desktop/Game/Learning/Pong/Content/HorizontalLine.png","E:/Desktop/Game/Learning/Pong/Content/bin/DesktopGL/Content/HorizontalLine.xnb","TextureProcessor","Texture2DContent",159,25685,0.0010506
+"E:/Desktop/Game/Learning/Pong/Content/menuBtn0.png","E:/Desktop/Game/Learning/Pong/Content/bin/DesktopGL/Content/menuBtn0.xnb","TextureProcessor","Texture2DContent",2587,396885,0.0068634
+"E:/Desktop/Game/Learning/Pong/Content/menuBtn1.png","E:/Desktop/Game/Learning/Pong/Content/bin/DesktopGL/Content/menuBtn1.xnb","TextureProcessor","Texture2DContent",3414,396885,0.0074993
+"E:/Desktop/Game/Learning/Pong/Content/menuBtn2.png","E:/Desktop/Game/Learning/Pong/Content/bin/DesktopGL/Content/menuBtn2.xnb","TextureProcessor","Texture2DContent",2064,396885,0.0078315
+"E:/Desktop/Game/Learning/Pong/Content/Paddle.png","E:/Desktop/Game/Learning/Pong/Content/bin/DesktopGL/Content/Paddle.xnb","TextureProcessor","Texture2DContent",116,4181,0.0008637
+"E:/Desktop/Game/Learning/Pong/Content/Score.png","E:/Desktop/Game/Learning/Pong/Content/bin/DesktopGL/Content/Score.xnb","TextureProcessor","Texture2DContent",1303,73813,0.0018468
+"E:/Desktop/Game/Learning/Pong/Content/Title.png","E:/Desktop/Game/Learning/Pong/Content/bin/DesktopGL/Content/Title.xnb","TextureProcessor","Texture2DContent",3419,396885,0.0115613
+"E:/Desktop/Game/Learning/Pong/Content/VerticalLine.png","E:/Desktop/Game/Learning/Pong/Content/bin/DesktopGL/Content/VerticalLine.xnb","TextureProcessor","Texture2DContent",192,25685,0.0013487
