@@ -4,7 +4,7 @@
 [Day Zero, ECS and Basics](#ECS)</br>
 [Day One, Pong](#Pong)</br>
 [Day Two, Snake](#Snake)</br>
-https://github.com/ReedOlm/GameJourney/tree/main/Pong
+
 ## Day Zero - Basic Monogame and my ECS Template <a name="ECS"></a> - <a href="https://github.com/ReedOlm/GameJourney/tree/main/ECSTemplate">Link to Repository</a>
 ### Learning basic ECS project format and creating a template
 <ul>
