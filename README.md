@@ -4,8 +4,8 @@
 [Day Zero, ECS and Basics](#ECS)</br>
 [Day One, Pong](#Pong)</br>
 [Day Two, Snake](#Snake)</br>
-
-## Day Zero - Basic Monogame and my ECS Template <a name="ECS"></a> - <a href="https://github.com/ReedOlm/CS4843/tree/main/basicCICD">Link to Repository</a>
+https://github.com/ReedOlm/GameJourney/tree/main/Pong
+## Day Zero - Basic Monogame and my ECS Template <a name="ECS"></a> - <a href="https://github.com/ReedOlm/GameJourney/tree/main/ECSTemplate">Link to Repository</a>
 ### Learning basic ECS project format and creating a template
 <ul>
   <li>Created a template project with basic ECS implemented</li>
@@ -16,7 +16,7 @@
   <li>This should also be targeting 144fps, and should not be linking physics to frame rate</li>
 </ul>
 
-## Day One - Pong <a name="Pong"></a> - <a href="https://github.com/ReedOlm/CS4843/tree/main/KittiesOfTheWeek">Link to Repository</a>
+## Day One - Pong <a name="Pong"></a> - <a href="https://github.com/ReedOlm/GameJourney/tree/main/Pong">Link to Repository</a>
 ### My first game, a mostly complete 2 player pong
 <ul>
   <li>First attempt at implementing a pause menu, edited Data/GamestateManager to implement</li>
@@ -27,8 +27,8 @@
   <li>Game ends at 7 points, nothing fancy, no real victor decalred</li>
 </ul>
 
-## Day Two - Snake <a name="Snake"></a> - <a href="https://github.com/ReedOlm/CS4843/tree/main/CloudFormationDeployment">Link to Repository</a>
-### My future second game
+## Day Two - Snake <a name="Snake"></a> - <a href="https://github.com/ReedOlm/GameJourney/tree/main/Snake">Link to Repository</a>
+### My future second game, goals include better art, learning sound, more functional victory/loss screen, persistent high scores
 <!---
 <ul>
   <li>Using a bash script and the AWS cli, deployed 3 different stacks</li>
