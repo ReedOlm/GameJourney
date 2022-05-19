@@ -1,0 +1,5 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"E:/Desktop/Game/Learning/FutureTemplate/Content/back.png","E:/Desktop/Game/Learning/FutureTemplate/Content/bin/DesktopGL/back.xnb","TextureProcessor","Texture2DContent",3150,396885,0.1128505
+"E:/Desktop/Game/Learning/FutureTemplate/Content/menuBtn0.png","E:/Desktop/Game/Learning/FutureTemplate/Content/bin/DesktopGL/menuBtn0.xnb","TextureProcessor","Texture2DContent",2587,396885,0.0341075
+"E:/Desktop/Game/Learning/FutureTemplate/Content/menuBtn1.png","E:/Desktop/Game/Learning/FutureTemplate/Content/bin/DesktopGL/menuBtn1.xnb","TextureProcessor","Texture2DContent",3414,396885,0.0087097
+"E:/Desktop/Game/Learning/FutureTemplate/Content/menuBtn2.png","E:/Desktop/Game/Learning/FutureTemplate/Content/bin/DesktopGL/menuBtn2.xnb","TextureProcessor","Texture2DContent",2064,396885,0.0079453
