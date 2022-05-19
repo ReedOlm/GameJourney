@@ -1,4 +1,4 @@
-# GameJourney - A repo to store all my Monogame, Aseprite, and more learning history
+# GameJourney - My Monogame and Aseprite Learning Repo
 
 ## Table of Contents
 [Day Zero, ECS and Basics](#ECS)</br>
