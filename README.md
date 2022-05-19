@@ -2,8 +2,8 @@
 
 ## Table of Contents
 [Day Zero, ECS and Basics](#ECS)</br>
-[Day One, Pong](#Pong)
-[Day Two, Snake](#Snake)
+[Day One, Pong](#Pong)</br>
+[Day Two, Snake](#Snake)</br>
 
 ## Day Zero - Basic Monogame and my ECS Template <a name="ECS"></a> - <a href="https://github.com/ReedOlm/CS4843/tree/main/basicCICD">Link to Repository</a>
 ### Learning basic ECS project format and creating a template
