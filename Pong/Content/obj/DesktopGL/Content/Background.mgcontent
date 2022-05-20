@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>E:/Desktop/Game/Learning/Pong/Content/Background.png</SourceFile>
+  <SourceFile>E:/Desktop/Game/Github/GameJourney/Pong/Content/Background.png</SourceFile>
   <SourceTime>2022-05-18T18:10:29.3901564-05:00</SourceTime>
-  <DestFile>E:/Desktop/Game/Learning/Pong/Content/bin/DesktopGL/Content/Background.xnb</DestFile>
-  <DestTime>2022-05-18T21:50:29.9468501-05:00</DestTime>
+  <DestFile>E:/Desktop/Game/Github/GameJourney/Pong/Content/bin/DesktopGL/Content/Background.xnb</DestFile>
+  <DestTime>2022-05-19T23:01:53.2993554-05:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2020-08-10T11:17:54-05:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

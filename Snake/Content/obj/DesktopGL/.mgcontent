@@ -4,12 +4,26 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>E:/Desktop/Game/Learning/FutureTemplate/Content/back.png</File>
-    <File>E:/Desktop/Game/Learning/FutureTemplate/Content/menuBtn0.png</File>
-    <File>E:/Desktop/Game/Learning/FutureTemplate/Content/menuBtn1.png</File>
-    <File>E:/Desktop/Game/Learning/FutureTemplate/Content/menuBtn2.png</File>
+    <File>E:/Desktop/Game/Github/GameJourney/Snake/Content/back.png</File>
+    <File>E:/Desktop/Game/Github/GameJourney/Snake/Content/background.png</File>
+    <File>E:/Desktop/Game/Github/GameJourney/Snake/Content/fruit.png</File>
+    <File>E:/Desktop/Game/Github/GameJourney/Snake/Content/menuBtn0.png</File>
+    <File>E:/Desktop/Game/Github/GameJourney/Snake/Content/menuBtn0480.png</File>
+    <File>E:/Desktop/Game/Github/GameJourney/Snake/Content/menuBtn1.png</File>
+    <File>E:/Desktop/Game/Github/GameJourney/Snake/Content/menuBtn1480.png</File>
+    <File>E:/Desktop/Game/Github/GameJourney/Snake/Content/menuBtn2.png</File>
+    <File>E:/Desktop/Game/Github/GameJourney/Snake/Content/menuBtn2480.png</File>
+    <File>E:/Desktop/Game/Github/GameJourney/Snake/Content/menuBtn3480.png</File>
+    <File>E:/Desktop/Game/Github/GameJourney/Snake/Content/snakeTile.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

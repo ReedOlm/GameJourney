@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aV0q1jN+85Hai2Uiow9lFkpK8sbWv1vUJ/i/hgZJdW1sBE8DrqcUty8Xj76f5U4jlGarCddwD5S0SopvO2Ce+w==",
+  "dgSpecHash": "uynhkaeHG9RJSS8zgqFx0BERvmtJuIkZI+F8XsJRy1TkZzv6ZJLzkvP/xE2ntWjxVsq68PrFJ8i6w5AXMGVIzQ==",
   "success": true,
-  "projectFilePath": "E:\\Desktop\\Game\\Learning\\Pong\\Pong.csproj",
+  "projectFilePath": "E:\\Desktop\\Game\\Github\\GameJourney\\Pong\\Pong.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\reedo\\.nuget\\packages\\monogame.content.builder.task\\3.8.0.1641\\monogame.content.builder.task.3.8.0.1641.nupkg.sha512",
     "C:\\Users\\reedo\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.0.1641\\monogame.framework.desktopgl.3.8.0.1641.nupkg.sha512"

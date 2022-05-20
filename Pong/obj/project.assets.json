@@ -181,11 +181,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Desktop\\Game\\Learning\\Pong\\Pong.csproj",
+      "projectUniqueName": "E:\\Desktop\\Game\\Github\\GameJourney\\Pong\\Pong.csproj",
       "projectName": "Pong",
-      "projectPath": "E:\\Desktop\\Game\\Learning\\Pong\\Pong.csproj",
+      "projectPath": "E:\\Desktop\\Game\\Github\\GameJourney\\Pong\\Pong.csproj",
       "packagesPath": "C:\\Users\\reedo\\.nuget\\packages\\",
-      "outputPath": "E:\\Desktop\\Game\\Learning\\Pong\\obj\\",
+      "outputPath": "E:\\Desktop\\Game\\Github\\GameJourney\\Pong\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

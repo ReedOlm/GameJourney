@@ -14,6 +14,9 @@ namespace Snake.Core
         private GraphicsDeviceManager graphics;
         private SpriteBatch spriteBatch;
 
+        // Testing
+        private Matrix scaler;
+
         // Targeting a resolution and framerate
         RenderTarget2D renderTarget;
         public float scale = 0.44444f;
@@ -36,13 +39,13 @@ namespace Snake.Core
             TargetElapsedTime = TimeSpan.FromSeconds(1.0 / 144.0f);
             IsFixedTimeStep = true; // Needs testing to figure out which value is correct
 
-            // Setting starting resolution
-            graphics.PreferredBackBufferWidth = Data.ScreenW;
-            graphics.PreferredBackBufferHeight = Data.ScreenH;
+            // Setting starting user resolution
+            graphics.PreferredBackBufferWidth = Data.TargetW;
+            graphics.PreferredBackBufferHeight = Data.TargetH;
             graphics.ApplyChanges();
 
             // Setting target resolution
-            renderTarget = new RenderTarget2D(GraphicsDevice, 1920, 1080);
+            renderTarget = new RenderTarget2D(GraphicsDevice, Data.ScreenW, Data.ScreenH);
 
             // Game state manager initialization
             gsm = new GameStateManager();
@@ -76,7 +79,11 @@ namespace Snake.Core
         protected override void Draw(GameTime gameTime)
         {
             // Targeting resolution
-            scale = 1f / (1080f / graphics.GraphicsDevice.Viewport.Height);
+            //scale = 1f / ((float)Data.targetH / graphics.GraphicsDevice.Viewport.Height);
+            //scale = 1f / ((float)graphics.PreferredBackBufferHeight / (float)Data.targetH);
+            scale = 1f / ((float)Data.ScreenH / (float)Data.TargetH); // This works
+            scaler = Matrix.CreateScale(scale);
+            
             GraphicsDevice.SetRenderTarget(renderTarget);
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
@@ -89,8 +96,9 @@ namespace Snake.Core
             GraphicsDevice.SetRenderTarget(null);
             GraphicsDevice.Clear(Color.CornflowerBlue);
             // Draw render target
-            spriteBatch.Begin();
-            spriteBatch.Draw(renderTarget, Vector2.Zero, null, Color.White, 0f, Vector2.Zero, scale, SpriteEffects.None, 0f);
+            spriteBatch.Begin(transformMatrix: scaler);
+            spriteBatch.Draw(renderTarget, Vector2.Zero, Color.White);
+            //spriteBatch.Draw(renderTarget, Vector2.Zero, null, Color.White, 0f, Vector2.Zero, scale, SpriteEffects.None, 0f);
             spriteBatch.End();
 
             base.Draw(gameTime);

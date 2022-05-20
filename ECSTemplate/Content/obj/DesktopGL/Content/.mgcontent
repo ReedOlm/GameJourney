@@ -4,7 +4,7 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>E:/Desktop/Game/Github/GameJourney/ECSTemplate/Content/back.png</File>
+    <File>E:/Desktop/Game/Github/GameJourney/ECSTemplate/Content/backBtn.png</File>
     <File>E:/Desktop/Game/Github/GameJourney/ECSTemplate/Content/menuBtn0.png</File>
     <File>E:/Desktop/Game/Github/GameJourney/ECSTemplate/Content/menuBtn1.png</File>
     <File>E:/Desktop/Game/Github/GameJourney/ECSTemplate/Content/menuBtn2.png</File>

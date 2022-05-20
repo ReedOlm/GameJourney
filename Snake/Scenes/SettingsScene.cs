@@ -21,8 +21,8 @@ namespace Snake.Scenes
 
         internal override void LoadContent(ContentManager Content)
         {
-            back = Content.Load<Texture2D>("Back");
-            backRect = new Rectangle(Data.ScreenW / 2 - 200, 24, back.Width, back.Height);
+            back = Content.Load<Texture2D>($"menuBtn3{Data.ScreenH}");
+            backRect = new Rectangle(Data.TargetW / 2 - 200, 24, back.Width, back.Height);
         }
 
         internal override void Update(GameTime gameTime)

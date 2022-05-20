@@ -12,7 +12,7 @@ namespace ECSTemplate.Scenes
     class MenuScene : Component
     {
         private const int MAX_BTNS = 3;
-        private const int INCREMENT_VALUE = 248 + 10; // Buttons are 248, with 10 pixel buffer between
+        private const int BUFFER_VALUE = 10; // Setting a 10 pixel vertical buffer between buttons
         private Texture2D[] btns = new Texture2D[MAX_BTNS]; // Array of buttons
         private Rectangle[] btnRects = new Rectangle[MAX_BTNS]; // Targeting rectangles
 
@@ -29,7 +29,8 @@ namespace ECSTemplate.Scenes
                 btns[i] = Content.Load<Texture2D>($"menuBtn{i}");
 
                 // Center screen, and offset by increment value, Leaves space for title at 0
-                btnRects[i] = new Rectangle((Data.ScreenW / 2 - 200), INCREMENT_VALUE + (INCREMENT_VALUE * i), btns[i].Width, btns[i].Height);
+                // Place buttons halfway across screen, starting 1 button distance + buffer distance from the top 
+                btnRects[i] = new Rectangle((Data.ScreenW / 2 - btns[i].Width / 2), btns[i].Height + BUFFER_VALUE + ((btns[i].Height + BUFFER_VALUE) * i), btns[i].Width, btns[i].Height);
             }
         }
 

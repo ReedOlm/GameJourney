@@ -1,5 +1,12 @@
 Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
-"E:/Desktop/Game/Github/GameJourney/Snake/Snake/Content/back.png","E:/Desktop/Game/Github/GameJourney/Snake/Snake/Content/bin/DesktopGL/Content/back.xnb","TextureProcessor","Texture2DContent",3150,396885,0.1113989
-"E:/Desktop/Game/Github/GameJourney/Snake/Snake/Content/menuBtn0.png","E:/Desktop/Game/Github/GameJourney/Snake/Snake/Content/bin/DesktopGL/Content/menuBtn0.xnb","TextureProcessor","Texture2DContent",2587,396885,0.0088109
-"E:/Desktop/Game/Github/GameJourney/Snake/Snake/Content/menuBtn1.png","E:/Desktop/Game/Github/GameJourney/Snake/Snake/Content/bin/DesktopGL/Content/menuBtn1.xnb","TextureProcessor","Texture2DContent",3414,396885,0.0110172
-"E:/Desktop/Game/Github/GameJourney/Snake/Snake/Content/menuBtn2.png","E:/Desktop/Game/Github/GameJourney/Snake/Snake/Content/bin/DesktopGL/Content/menuBtn2.xnb","TextureProcessor","Texture2DContent",2064,396885,0.008525
+"E:/Desktop/Game/Github/GameJourney/Snake/Content/back.png","E:/Desktop/Game/Github/GameJourney/Snake/Content/bin/DesktopGL/Content/back.xnb","TextureProcessor","Texture2DContent",3150,396885,0.1108216
+"E:/Desktop/Game/Github/GameJourney/Snake/Content/background.png","E:/Desktop/Game/Github/GameJourney/Snake/Content/bin/DesktopGL/Content/background.xnb","TextureProcessor","Texture2DContent",1794,640085,0.1151372
+"E:/Desktop/Game/Github/GameJourney/Snake/Content/fruit.png","E:/Desktop/Game/Github/GameJourney/Snake/Content/bin/DesktopGL/Content/fruit.xnb","TextureProcessor","Texture2DContent",158,1109,0.0014063
+"E:/Desktop/Game/Github/GameJourney/Snake/Content/menuBtn0.png","E:/Desktop/Game/Github/GameJourney/Snake/Content/bin/DesktopGL/Content/menuBtn0.xnb","TextureProcessor","Texture2DContent",2587,396885,0.0088047
+"E:/Desktop/Game/Github/GameJourney/Snake/Content/menuBtn0480.png","E:/Desktop/Game/Github/GameJourney/Snake/Content/bin/DesktopGL/Content/menuBtn0480.xnb","TextureProcessor","Texture2DContent",1502,79285,0.1035671
+"E:/Desktop/Game/Github/GameJourney/Snake/Content/menuBtn1.png","E:/Desktop/Game/Github/GameJourney/Snake/Content/bin/DesktopGL/Content/menuBtn1.xnb","TextureProcessor","Texture2DContent",3414,396885,0.0094021
+"E:/Desktop/Game/Github/GameJourney/Snake/Content/menuBtn1480.png","E:/Desktop/Game/Github/GameJourney/Snake/Content/bin/DesktopGL/Content/menuBtn1480.xnb","TextureProcessor","Texture2DContent",1679,79285,0.0029806
+"E:/Desktop/Game/Github/GameJourney/Snake/Content/menuBtn2.png","E:/Desktop/Game/Github/GameJourney/Snake/Content/bin/DesktopGL/Content/menuBtn2.xnb","TextureProcessor","Texture2DContent",2064,396885,0.0088983
+"E:/Desktop/Game/Github/GameJourney/Snake/Content/menuBtn2480.png","E:/Desktop/Game/Github/GameJourney/Snake/Content/bin/DesktopGL/Content/menuBtn2480.xnb","TextureProcessor","Texture2DContent",1427,79285,0.0038261
+"E:/Desktop/Game/Github/GameJourney/Snake/Content/menuBtn3480.png","E:/Desktop/Game/Github/GameJourney/Snake/Content/bin/DesktopGL/Content/menuBtn3480.xnb","TextureProcessor","Texture2DContent",1680,79285,0.002774
+"E:/Desktop/Game/Github/GameJourney/Snake/Content/snakeTile.png","E:/Desktop/Game/Github/GameJourney/Snake/Content/bin/DesktopGL/Content/snakeTile.xnb","TextureProcessor","Texture2DContent",686,16469,0.0019662

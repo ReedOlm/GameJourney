@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>E:/Desktop/Game/Learning/FutureTemplate/Content/menuBtn2.png</SourceFile>
-  <SourceTime>2022-05-15T15:46:34.7824276-05:00</SourceTime>
-  <DestFile>E:/Desktop/Game/Learning/FutureTemplate/Content/bin/DesktopGL/menuBtn2.xnb</DestFile>
-  <DestTime>2022-05-18T21:57:21.1829123-05:00</DestTime>
+  <SourceFile>E:/Desktop/Game/Github/GameJourney/ECSTemplate/Content/menuBtn2.png</SourceFile>
+  <SourceTime>2022-05-20T14:09:26.6900209-05:00</SourceTime>
+  <DestFile>E:/Desktop/Game/Github/GameJourney/ECSTemplate/Content/bin/DesktopGL/menuBtn2.xnb</DestFile>
+  <DestTime>2022-05-20T16:01:46.6420338-05:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2020-08-10T11:17:54-05:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

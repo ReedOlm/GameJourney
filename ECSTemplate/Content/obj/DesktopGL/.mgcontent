@@ -4,10 +4,10 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>E:/Desktop/Game/Learning/FutureTemplate/Content/back.png</File>
-    <File>E:/Desktop/Game/Learning/FutureTemplate/Content/menuBtn0.png</File>
-    <File>E:/Desktop/Game/Learning/FutureTemplate/Content/menuBtn1.png</File>
-    <File>E:/Desktop/Game/Learning/FutureTemplate/Content/menuBtn2.png</File>
+    <File>E:/Desktop/Game/Github/GameJourney/ECSTemplate/Content/backBtn.png</File>
+    <File>E:/Desktop/Game/Github/GameJourney/ECSTemplate/Content/menuBtn0.png</File>
+    <File>E:/Desktop/Game/Github/GameJourney/ECSTemplate/Content/menuBtn1.png</File>
+    <File>E:/Desktop/Game/Github/GameJourney/ECSTemplate/Content/menuBtn2.png</File>
   </SourceFiles>
   <DestFiles>
     <File xsi:nil="true" />

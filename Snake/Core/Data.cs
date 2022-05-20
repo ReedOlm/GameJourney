@@ -6,9 +6,15 @@ namespace Snake.Core
 {
     public static class Data
     {
-        // Running screen resolution and game state info
-        public static int ScreenW { get; set; } = 1920;
-        public static int ScreenH { get; set; } = 1080;
+        // User (target) screen resolution, this will be what our assets are scaled to
+        public static int TargetW { get; set; } = 1920;
+        public static int TargetH { get; set; } = 1080;
+
+        // These are the resolutions that the game needs to render to.
+        public static int ScreenW { get; set; } = 852;
+        public static int ScreenH { get; set; } = 480;
+
+        // Game info
         public static bool Exit { get; set; } = false;
         public static float Scale { get; set; } = 0.44444f;
 

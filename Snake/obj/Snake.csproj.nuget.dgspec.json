@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Desktop\\Game\\Github\\GameJourney\\Snake\\Snake\\Snake.csproj": {}
+    "E:\\Desktop\\Game\\Github\\GameJourney\\Snake\\Snake.csproj": {}
   },
   "projects": {
-    "E:\\Desktop\\Game\\Github\\GameJourney\\Snake\\Snake\\Snake.csproj": {
+    "E:\\Desktop\\Game\\Github\\GameJourney\\Snake\\Snake.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Desktop\\Game\\Github\\GameJourney\\Snake\\Snake\\Snake.csproj",
+        "projectUniqueName": "E:\\Desktop\\Game\\Github\\GameJourney\\Snake\\Snake.csproj",
         "projectName": "Snake",
-        "projectPath": "E:\\Desktop\\Game\\Github\\GameJourney\\Snake\\Snake\\Snake.csproj",
+        "projectPath": "E:\\Desktop\\Game\\Github\\GameJourney\\Snake\\Snake.csproj",
         "packagesPath": "C:\\Users\\reedo\\.nuget\\packages\\",
-        "outputPath": "E:\\Desktop\\Game\\Github\\GameJourney\\Snake\\Snake\\obj\\",
+        "outputPath": "E:\\Desktop\\Game\\Github\\GameJourney\\Snake\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

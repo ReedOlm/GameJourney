@@ -4,17 +4,17 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>E:/Desktop/Game/Learning/Pong/Content/back.png</File>
-    <File>E:/Desktop/Game/Learning/Pong/Content/Background.png</File>
-    <File>E:/Desktop/Game/Learning/Pong/Content/Ball.png</File>
-    <File>E:/Desktop/Game/Learning/Pong/Content/HorizontalLine.png</File>
-    <File>E:/Desktop/Game/Learning/Pong/Content/menuBtn0.png</File>
-    <File>E:/Desktop/Game/Learning/Pong/Content/menuBtn1.png</File>
-    <File>E:/Desktop/Game/Learning/Pong/Content/menuBtn2.png</File>
-    <File>E:/Desktop/Game/Learning/Pong/Content/Paddle.png</File>
-    <File>E:/Desktop/Game/Learning/Pong/Content/Score.png</File>
-    <File>E:/Desktop/Game/Learning/Pong/Content/Title.png</File>
-    <File>E:/Desktop/Game/Learning/Pong/Content/VerticalLine.png</File>
+    <File>E:/Desktop/Game/Github/GameJourney/Pong/Content/back.png</File>
+    <File>E:/Desktop/Game/Github/GameJourney/Pong/Content/Background.png</File>
+    <File>E:/Desktop/Game/Github/GameJourney/Pong/Content/Ball.png</File>
+    <File>E:/Desktop/Game/Github/GameJourney/Pong/Content/HorizontalLine.png</File>
+    <File>E:/Desktop/Game/Github/GameJourney/Pong/Content/menuBtn0.png</File>
+    <File>E:/Desktop/Game/Github/GameJourney/Pong/Content/menuBtn1.png</File>
+    <File>E:/Desktop/Game/Github/GameJourney/Pong/Content/menuBtn2.png</File>
+    <File>E:/Desktop/Game/Github/GameJourney/Pong/Content/Paddle.png</File>
+    <File>E:/Desktop/Game/Github/GameJourney/Pong/Content/Score.png</File>
+    <File>E:/Desktop/Game/Github/GameJourney/Pong/Content/Title.png</File>
+    <File>E:/Desktop/Game/Github/GameJourney/Pong/Content/VerticalLine.png</File>
   </SourceFiles>
   <DestFiles>
     <File xsi:nil="true" />

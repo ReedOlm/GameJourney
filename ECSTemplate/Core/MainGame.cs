@@ -15,6 +15,7 @@ namespace ECSTemplate.Core
         private SpriteBatch spriteBatch;
 
         // Targeting a resolution and framerate
+        private Matrix scalingMatrix;
         RenderTarget2D renderTarget;
         public float scale = 0.44444f;
         public float elapsed;
@@ -37,12 +38,12 @@ namespace ECSTemplate.Core
             IsFixedTimeStep = true; // Needs testing to figure out which value is correct
 
             // Setting starting resolution
-            graphics.PreferredBackBufferWidth = Data.ScreenW;
-            graphics.PreferredBackBufferHeight = Data.ScreenH;
+            graphics.PreferredBackBufferWidth = Data.TargetW;
+            graphics.PreferredBackBufferHeight = Data.TargetH;
             graphics.ApplyChanges();
 
             // Setting target resolution
-            renderTarget = new RenderTarget2D(GraphicsDevice, 1920, 1080);
+            renderTarget = new RenderTarget2D(GraphicsDevice, Data.ScreenW, Data.ScreenH);
 
             // Game state manager initialization
             gsm = new GameStateManager();
@@ -76,7 +77,8 @@ namespace ECSTemplate.Core
         protected override void Draw(GameTime gameTime)
         {
             // Targeting resolution
-            scale = 1f / (1080f / graphics.GraphicsDevice.Viewport.Height);
+            scale = 1f / ((float)Data.ScreenH / (float)Data.TargetH);
+            scalingMatrix = Matrix.CreateScale(scale);
             GraphicsDevice.SetRenderTarget(renderTarget);
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
@@ -88,9 +90,10 @@ namespace ECSTemplate.Core
             // Targeting resolution
             GraphicsDevice.SetRenderTarget(null);
             GraphicsDevice.Clear(Color.CornflowerBlue);
-            // Draw render target
-            spriteBatch.Begin();
-            spriteBatch.Draw(renderTarget, Vector2.Zero, null, Color.White, 0f, Vector2.Zero, scale, SpriteEffects.None, 0f);
+
+            // Draw render target using the scaling matrix to scale our view.
+            spriteBatch.Begin(transformMatrix: scalingMatrix);
+            spriteBatch.Draw(renderTarget, Vector2.Zero, Color.White);
             spriteBatch.End();
 
             base.Draw(gameTime);

@@ -25,10 +25,6 @@ E:\Desktop\Game\Github\GameJourney\FutureTemplate\obj\Debug\netcoreapp3.1\ECSTem
 E:\Desktop\Game\Github\GameJourney\FutureTemplate\obj\Debug\netcoreapp3.1\ECSTemplate.dll
 E:\Desktop\Game\Github\GameJourney\FutureTemplate\obj\Debug\netcoreapp3.1\ECSTemplate.pdb
 E:\Desktop\Game\Github\GameJourney\FutureTemplate\obj\Debug\netcoreapp3.1\ECSTemplate.genruntimeconfig.cache
-E:\Desktop\Game\Github\GameJourney\ECSTemplate\bin\Debug\netcoreapp3.1\Content\back.xnb
-E:\Desktop\Game\Github\GameJourney\ECSTemplate\bin\Debug\netcoreapp3.1\Content\menuBtn0.xnb
-E:\Desktop\Game\Github\GameJourney\ECSTemplate\bin\Debug\netcoreapp3.1\Content\menuBtn1.xnb
-E:\Desktop\Game\Github\GameJourney\ECSTemplate\bin\Debug\netcoreapp3.1\Content\menuBtn2.xnb
 E:\Desktop\Game\Github\GameJourney\ECSTemplate\bin\Debug\netcoreapp3.1\ECSTemplate.exe
 E:\Desktop\Game\Github\GameJourney\ECSTemplate\bin\Debug\netcoreapp3.1\ECSTemplate.deps.json
 E:\Desktop\Game\Github\GameJourney\ECSTemplate\bin\Debug\netcoreapp3.1\ECSTemplate.runtimeconfig.json
@@ -53,3 +49,7 @@ E:\Desktop\Game\Github\GameJourney\ECSTemplate\obj\Debug\netcoreapp3.1\ECSTempla
 E:\Desktop\Game\Github\GameJourney\ECSTemplate\obj\Debug\netcoreapp3.1\ECSTemplate.dll
 E:\Desktop\Game\Github\GameJourney\ECSTemplate\obj\Debug\netcoreapp3.1\ECSTemplate.pdb
 E:\Desktop\Game\Github\GameJourney\ECSTemplate\obj\Debug\netcoreapp3.1\ECSTemplate.genruntimeconfig.cache
+E:\Desktop\Game\Github\GameJourney\ECSTemplate\bin\Debug\netcoreapp3.1\Content\backBtn.xnb
+E:\Desktop\Game\Github\GameJourney\ECSTemplate\bin\Debug\netcoreapp3.1\Content\menuBtn0.xnb
+E:\Desktop\Game\Github\GameJourney\ECSTemplate\bin\Debug\netcoreapp3.1\Content\menuBtn1.xnb
+E:\Desktop\Game\Github\GameJourney\ECSTemplate\bin\Debug\netcoreapp3.1\Content\menuBtn2.xnb
