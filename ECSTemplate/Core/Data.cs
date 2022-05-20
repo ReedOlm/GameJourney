@@ -7,7 +7,7 @@ namespace ECSTemplate.Core
     public static class Data
     {
         // These are the resolutions that the game needs to render to.
-        public static int ScreenW { get; set; } = 1920; // Change these to acommodate our assets
+        public static int ScreenW { get; set; } = 1920; // These set dimensions of game world
         public static int ScreenH { get; set; } = 1080;
         public static bool Exit { get; set; } = false;
         public static float Scale { get; set; } = 0.44444f;
