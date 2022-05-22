@@ -28,7 +28,7 @@
 </ul>
 
 ## Day Two - Snake <a name="Snake"></a> - <a href="https://github.com/ReedOlm/GameJourney/tree/main/Snake">Link to Repository</a>
-### My future second game, goals include better art, learning sound, more functional victory/loss screen, persistent high scores
+### My second game, goals include better art, learning sound, more functional victory/loss screen, persistent high scores, and render targeting understanding
 <!---
 <ul>
   <li>Using a bash script and the AWS cli, deployed 3 different stacks</li>
