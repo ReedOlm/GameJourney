@@ -61,3 +61,4 @@ E:\Desktop\Game\Github\GameJourney\Snake\bin\Debug\netcoreapp3.1\Content\menuBtn
 E:\Desktop\Game\Github\GameJourney\Snake\bin\Debug\netcoreapp3.1\Content\menuBtn1480.xnb
 E:\Desktop\Game\Github\GameJourney\Snake\bin\Debug\netcoreapp3.1\Content\menuBtn2480.xnb
 E:\Desktop\Game\Github\GameJourney\Snake\bin\Debug\netcoreapp3.1\Content\menuBtn3480.xnb
+E:\Desktop\Game\Github\GameJourney\Snake\bin\Debug\netcoreapp3.1\Content\mouse.xnb

@@ -13,6 +13,7 @@ namespace Snake.Core
     {
         private GraphicsDeviceManager graphics;
         private SpriteBatch spriteBatch;
+        public static readonly Random r = new Random();
 
         // Testing
         private Matrix scaler;
@@ -29,7 +30,7 @@ namespace Snake.Core
         {
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
-            IsMouseVisible = true; // Toggle mouse visibility
+            IsMouseVisible = false; // Toggle mouse visibility
         }
 
         // Initialize stuff on startup

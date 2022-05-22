@@ -14,9 +14,11 @@
     <File>E:/Desktop/Game/Github/GameJourney/Snake/Content/menuBtn2.png</File>
     <File>E:/Desktop/Game/Github/GameJourney/Snake/Content/menuBtn2480.png</File>
     <File>E:/Desktop/Game/Github/GameJourney/Snake/Content/menuBtn3480.png</File>
+    <File>E:/Desktop/Game/Github/GameJourney/Snake/Content/mouse.png</File>
     <File>E:/Desktop/Game/Github/GameJourney/Snake/Content/snakeTile.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

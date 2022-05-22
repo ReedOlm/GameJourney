@@ -18,11 +18,13 @@ namespace Snake.Scenes
         private MouseState oldMs;
         private MouseState ms;
         private Rectangle msRect;
+        private Texture2D mouseTex;
 
         internal override void LoadContent(ContentManager Content)
         {
-            back = Content.Load<Texture2D>($"menuBtn3{Data.ScreenH}");
-            backRect = new Rectangle(Data.TargetW / 2 - 200, 24, back.Width, back.Height);
+            back = Content.Load<Texture2D>($"menuBtn3480");
+            backRect = new Rectangle(Data.ScreenW / 2 - back.Width / 2, 24, back.Width, back.Height);
+            mouseTex = Content.Load<Texture2D>("mouse");
         }
 
         internal override void Update(GameTime gameTime)
@@ -52,6 +54,7 @@ namespace Snake.Scenes
             {
                 spriteBatch.Draw(back, backRect, Color.Gray);
             }
+            spriteBatch.Draw(mouseTex, new Vector2(msRect.X, msRect.Y), Color.White);
         }
     }
 }
