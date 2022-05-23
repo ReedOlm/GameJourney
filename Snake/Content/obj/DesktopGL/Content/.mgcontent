@@ -4,9 +4,11 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
+    <File>E:/Desktop/Game/Github/GameJourney/Snake/Content/apply.png</File>
     <File>E:/Desktop/Game/Github/GameJourney/Snake/Content/back.png</File>
     <File>E:/Desktop/Game/Github/GameJourney/Snake/Content/background.png</File>
     <File>E:/Desktop/Game/Github/GameJourney/Snake/Content/fruit.png</File>
+    <File>E:/Desktop/Game/Github/GameJourney/Snake/Content/galleryFont.spritefont</File>
     <File>E:/Desktop/Game/Github/GameJourney/Snake/Content/menuBtn0.png</File>
     <File>E:/Desktop/Game/Github/GameJourney/Snake/Content/menuBtn0480.png</File>
     <File>E:/Desktop/Game/Github/GameJourney/Snake/Content/menuBtn1.png</File>
@@ -15,9 +17,29 @@
     <File>E:/Desktop/Game/Github/GameJourney/Snake/Content/menuBtn2480.png</File>
     <File>E:/Desktop/Game/Github/GameJourney/Snake/Content/menuBtn3480.png</File>
     <File>E:/Desktop/Game/Github/GameJourney/Snake/Content/mouse.png</File>
+    <File>E:/Desktop/Game/Github/GameJourney/Snake/Content/munch.mp3</File>
+    <File>E:/Desktop/Game/Github/GameJourney/Snake/Content/owie.mp3</File>
+    <File>E:/Desktop/Game/Github/GameJourney/Snake/Content/reset.png</File>
+    <File>E:/Desktop/Game/Github/GameJourney/Snake/Content/settingsBtn0.png</File>
+    <File>E:/Desktop/Game/Github/GameJourney/Snake/Content/settingsBtn1.png</File>
+    <File>E:/Desktop/Game/Github/GameJourney/Snake/Content/settingsBtn2.png</File>
+    <File>E:/Desktop/Game/Github/GameJourney/Snake/Content/snakeTheme.wav</File>
     <File>E:/Desktop/Game/Github/GameJourney/Snake/Content/snakeTile.png</File>
+    <File>E:/Desktop/Game/Github/GameJourney/Snake/Content/title.png</File>
+    <File>E:/Desktop/Game/Github/GameJourney/Snake/Content/welcome.mp3</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

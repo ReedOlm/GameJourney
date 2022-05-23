@@ -1,4 +1,5 @@
 ﻿using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Snake.Managers;
@@ -66,7 +67,16 @@ namespace Snake.Core
         // Runs at refresh rate
         protected override void Update(GameTime gameTime)
         {
-            gsm.Update(gameTime); // Use game state manager to choose which scene to call update on
+            // checking for a change in resolution
+            if (Data.UpdateResolution)
+            {
+                Data.UpdateResolution = false;
+                graphics.PreferredBackBufferWidth = Data.TargetW;
+                graphics.PreferredBackBufferHeight = Data.TargetH;
+                graphics.ApplyChanges();
+            }
+
+            gsm.Update(gameTime, Content); // Use game state manager to choose which scene to call update on
             // Check to end game
             if (Data.Exit)
                 Exit();
@@ -86,7 +96,7 @@ namespace Snake.Core
             scaler = Matrix.CreateScale(scale);
             
             GraphicsDevice.SetRenderTarget(renderTarget);
-            GraphicsDevice.Clear(Color.CornflowerBlue);
+            GraphicsDevice.Clear(Color.Black);
 
             // Calls game State Manager draw
             spriteBatch.Begin();
@@ -95,7 +105,7 @@ namespace Snake.Core
 
             // Targeting resolution
             GraphicsDevice.SetRenderTarget(null);
-            GraphicsDevice.Clear(Color.CornflowerBlue);
+            GraphicsDevice.Clear(Color.Black);
             // Draw render target
             spriteBatch.Begin(transformMatrix: scaler);
             spriteBatch.Draw(renderTarget, Vector2.Zero, Color.White);

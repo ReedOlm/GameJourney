@@ -15,6 +15,7 @@ namespace Snake.Managers
         private MenuScene ms = new MenuScene();
         private GameScene gs = new GameScene();
         private SettingsScene ss = new SettingsScene();
+        private ResetScene rs = new ResetScene();
 
         // Loads all scenes
         internal override void LoadContent(ContentManager Content)
@@ -22,21 +23,27 @@ namespace Snake.Managers
             ms.LoadContent(Content);
             gs.LoadContent(Content);
             ss.LoadContent(Content);
+            rs.LoadContent(Content);
         }
 
         // Update in current scene
-        internal override void Update(GameTime gameTime)
+        internal override void Update(GameTime gameTime, ContentManager Content)
         {
             switch (Data.CurrentState)
             {
                 case Data.Scenes.Menu:
-                    ms.Update(gameTime);
+                    ms.Update(gameTime, Content);
                     break;
                 case Data.Scenes.Game:
-                    gs.Update(gameTime);
+                    gs.Update(gameTime, Content);
                     break;
                 case Data.Scenes.Settings:
-                    ss.Update(gameTime);
+                    ss.Update(gameTime, Content);
+                    break;
+                case Data.Scenes.Reset:
+                    gs = new GameScene();
+                    gs.LoadContent(Content);
+                    rs.Update(gameTime, Content);
                     break;
             }
         }
@@ -54,6 +61,9 @@ namespace Snake.Managers
                     break;
                 case Data.Scenes.Settings:
                     ss.Draw(spriteBatch);
+                    break;
+                case Data.Scenes.Reset:
+                    rs.Draw(spriteBatch);
                     break;
             }
         }

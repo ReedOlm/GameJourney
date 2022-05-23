@@ -12,7 +12,7 @@ namespace Snake.Core
     {
         internal abstract void LoadContent(ContentManager Content);
 
-        internal abstract void Update(GameTime gameTime);
+        internal abstract void Update(GameTime gameTime, ContentManager Content);
 
         internal abstract void Draw(SpriteBatch spriteBatch);
     }

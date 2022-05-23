@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SourceFile>E:/Desktop/Game/Github/GameJourney/Snake/Content/snakeTheme.wav</SourceFile>
+  <SourceTime>2022-05-23T01:55:42.7435255-05:00</SourceTime>
+  <DestFile>E:/Desktop/Game/Github/GameJourney/Snake/Content/bin/DesktopGL/snakeTheme.xnb</DestFile>
+  <DestTime>2022-05-23T02:39:41.901498-05:00</DestTime>
+  <Importer>WavImporter</Importer>
+  <ImporterTime>2020-08-10T11:17:54-05:00</ImporterTime>
+  <Processor>SoundEffectProcessor</Processor>
+  <ProcessorTime>2020-08-10T11:17:54-05:00</ProcessorTime>
+  <Parameters>
+    <Key>Quality</Key>
+    <Value>Best</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput />
+</PipelineBuildEvent>

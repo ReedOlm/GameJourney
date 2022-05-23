@@ -1,7 +1,9 @@
 ﻿using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Audio;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using Microsoft.Xna.Framework.Media;
 using Snake.Core;
 using System;
 using System.Collections.Generic;
@@ -16,6 +18,10 @@ namespace Snake.Scenes
         private Texture2D[] btns = new Texture2D[MAX_BTNS]; // Array of buttons
         private Texture2D mouseTex;
         private Rectangle[] btnRects = new Rectangle[MAX_BTNS]; // Targeting rectangles
+        private SoundEffectInstance theme;
+        private SoundEffect welcome;
+        private Texture2D title;
+        private Rectangle titlePos;
 
         // Mouse detection
         private MouseState oldMs;
@@ -24,6 +30,8 @@ namespace Snake.Scenes
 
         internal override void LoadContent(ContentManager Content)
         {
+            title = Content.Load<Texture2D>("title");
+            titlePos = new Rectangle(Data.ScreenW / 2 - title.Width / 2, 0, title.Width, title.Height);
             mouseTex = Content.Load<Texture2D>("mouse");
             // Loading all buttons iteraively.
             for (int i = 0; i < btns.Length; i++)
@@ -33,9 +41,14 @@ namespace Snake.Scenes
                 // Center screen, and offset by increment value, Leaves space for title at 0
                 btnRects[i] = new Rectangle((Data.ScreenW / 2 - btns[i].Width / 2), btns[i].Height + BUFFER_VALUE + ((btns[i].Height + BUFFER_VALUE) * i), btns[i].Width, btns[i].Height);
             }
+            theme = Content.Load<SoundEffect>("snakeTheme").CreateInstance();
+            theme.IsLooped = true;
+            theme.Play();
+            welcome = Content.Load<SoundEffect>("welcome");
+            welcome.Play();
         }
 
-        internal override void Update(GameTime gameTime)
+        internal override void Update(GameTime gameTime, ContentManager Content)
         {
             oldMs = ms;
             ms = Mouse.GetState();
@@ -52,6 +65,7 @@ namespace Snake.Scenes
 
         internal override void Draw(SpriteBatch spriteBatch)
         {
+            spriteBatch.Draw(title, titlePos, Color.White);
             // Draw buttons and check if mouse is on top of them
             for (int i = 0; i < btns.Length; i++)
             {

@@ -8,7 +8,7 @@ namespace Snake.Core
     class SaveData
     {
         // Sample format of things to save
-        public string Name { get; set; }
+        public int highScore { get; set; }
 
     }
 }

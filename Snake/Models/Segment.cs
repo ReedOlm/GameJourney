@@ -12,14 +12,14 @@ namespace Snake.Models
         Down,
         Left
     }
-    public class Node
+    public class Segment
     {
-        public Node next;
+        public Segment next;
         public Rectangle position;
         public Color color;
-        public Node prev;
+        public Segment prev;
 
-        public Node(Node next, Node prev, Rectangle position)
+        public Segment(Segment next, Segment prev, Rectangle position)
         {
             this.next = next;
             this.prev = prev;
@@ -28,14 +28,14 @@ namespace Snake.Models
         }
     }
 
-    public class LinkedList
+    public class Snake
     {
-        public Node head;
-        public Node tail;
+        public Segment head;
+        public Segment tail;
         public Dir headDir;
         public int segments;
 
-        public LinkedList(Node head, Node tail, int segments, Dir hdir)
+        public Snake(Segment head, Segment tail, int segments, Dir hdir)
         {
             this.head = head;
             this.tail = tail;
@@ -43,7 +43,7 @@ namespace Snake.Models
             this.headDir = hdir;
         }
 
-        public void AddNode(Node newNode, Color color)
+        public void AddNode(Segment newNode, Color color)
         {
             tail.next = newNode;
             newNode.prev = tail;
@@ -55,7 +55,7 @@ namespace Snake.Models
 
         public Rectangle ShiftSegments(Rectangle goalPos)
         {
-            Node temp = head;
+            Segment temp = head;
             Rectangle prevPos;
             for(int i = 0; i < segments; i++)
             {
@@ -65,6 +65,20 @@ namespace Snake.Models
                 goalPos = prevPos;
             }
             return goalPos;
+        }
+
+        public bool DetectCollisions()
+        {
+            Segment temp = head.next;
+            for(int i = 1; i < segments; i++)
+            {
+                if (head.position.Intersects(temp.position))
+                    return true;
+                temp = temp.next;
+            }
+            if (head.position.Intersects(tail.position))
+                return true;
+            return false;
         }
     }
 }
