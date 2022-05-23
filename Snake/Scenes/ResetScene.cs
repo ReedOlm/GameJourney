@@ -52,6 +52,7 @@ namespace Snake.Scenes
             if (ms.LeftButton == ButtonState.Pressed && msRect.Intersects(resetRect))
             {
                 Data.SessionScore = 0;
+                Data.NewHighScore = false;
                 Data.CurrentState = Data.Scenes.Game;
             }
         }
@@ -69,7 +70,10 @@ namespace Snake.Scenes
             spriteBatch.Draw(mouseTex, new Vector2(msRect.X, msRect.Y), Color.White);
 
             spriteBatch.DrawString(scoreDisplay, "Your Score", scorePos, Color.White);
-            spriteBatch.DrawString(scoreDisplay, "Congratulations, New High Score!", hScorePos, Color.White);
+            if (Data.NewHighScore)
+            {
+                spriteBatch.DrawString(scoreDisplay, "Congratulations, New High Score!", hScorePos, Color.White);
+            }
             spriteBatch.DrawString(scoreDisplay, Data.SessionScore.ToString(), scoreNPos, Color.White);
         }
     }

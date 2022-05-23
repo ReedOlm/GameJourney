@@ -137,6 +137,7 @@ namespace Snake.Scenes
                 sounds[0].Play();
                 if (score > highScore)
                 {
+                    Data.NewHighScore = true;
                     saveData.highScore = score;
                     Save(saveData);
                 }
@@ -360,6 +361,14 @@ namespace Snake.Scenes
         // Loads from path the save data and returns the Save Data
         private SaveData Load()
         {
+            if (!File.Exists(Data.PATH))
+            {
+                SaveData fixer = new SaveData
+                {
+                    highScore = 0
+                };
+                Save(fixer);
+            }
             var fileContents = File.ReadAllText(Data.PATH);
             return JsonSerializer.Deserialize<SaveData>(fileContents);
         }

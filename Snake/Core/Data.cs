@@ -27,5 +27,6 @@ namespace Snake.Core
         public const string PATH = "savedData.json";
 
         public static int SessionScore = 0;
+        public static bool NewHighScore = false;
     }
 }
